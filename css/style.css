@@ -1,0 +1,203 @@
+.logo{
+    width: 80px;
+    height: auto;
+}
+
+.carousel img{
+    height: 80vh;
+    object-fit: cover;
+}
+
+.textoCarousel {
+    display: block;
+    position: absolute;
+    left: 15%; 
+    bottom: 30%; 
+    text-align: left;
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+}
+
+.textoCarousel p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+#descripion{
+    font-family: "Montserrat", sans-serif;
+}
+
+.texto-comidas{
+    font-family: "Caveat", cursive;
+    font-size: 1.5rem;
+    color: rgb(227, 184, 75);
+}
+
+.comidas img{
+    width: 50px;
+    height: 50px;
+}
+
+.iconos{
+    width: 70px; 
+    height: 70px;
+    background-color: rgb(241, 240, 240);
+    border-radius: 50%;
+    margin: 0 auto 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comidas .tarjeta{
+    transition: transform 0.3s ease;
+}
+
+.comidas .tarjeta:hover{
+    transform: scale(1.1);
+}
+
+.contenedorImagen{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#descuento1{
+    background-color: rgba(245, 177, 50, 0.5);
+}
+#descuento2{
+    background-color: rgb(232, 84, 84, 0.5);
+}
+#descuento3{
+    background-color: rgb(231, 41, 41, 0.5);
+}
+#contenido1Desc{
+    background-color: rgba(255, 183, 50, 0.8);
+}
+#contenido2Desc{
+    background-color: rgba(252, 51, 51, 0.8);
+}
+#contenido3Desc{
+    background-color: rgba(201, 70, 70, 0.8);
+}
+
+.descuentos .desc{
+    font-family: "Caveat", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.card-title{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.card-text{
+    font-family: "Montserrat", sans-serif;
+}
+
+.catalogo h3{
+    font-family: "Playfair Display", sans-serif;
+}
+
+.catalogo h4{
+    font-family: "Montserrat", sans-serif;
+}
+.catalogo p{
+    font-family: "Caveat", sans-serif;
+    font-size: 1.1rem;
+}
+
+.producto img{
+    width: 150px;
+    height: 150px;
+}
+
+.producto{
+    transition: transform 0.3s ease;
+}
+
+.producto:hover{
+    transform: scale(1.1);
+}
+
+.piePagina{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(98, 224, 98, 0.9);
+
+}
+.piePagina a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+
+.piePagina a:hover{
+    color: rgb(179, 179, 179);
+}
+
+@media (max-width: 768px) {
+
+.comidas .iconos img,
+.catalogo .producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.comidas, .descuentos, .catalogo, .preguntas {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* header */
+.textoCarousel {
+    top: auto; 
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: center;
+    width: 90%; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #343a40;
+    border-radius: 5px;
+}
+
+.textoCarousel p, 
+.textoCarousel h1 {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.textoCarousel h1 {
+    font-size: 1.8rem; 
+    line-height: 1.1;
+}
+
+
+/* comida */
+#descripcion {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.comidas .tarjeta {
+    margin: 0.5rem 0;
+}
+
+/* catalogo y descuentos*/
+.catalogo .producto {
+    padding: 10px;
+}
+
+.descuentos .contenedorImagen img {
+    max-height: 150px;
+    width: auto;
+    object-fit: contain;
+}
+}
