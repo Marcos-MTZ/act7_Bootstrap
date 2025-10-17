@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Comida Orgánica y Saludable</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="images/logo.png" alt="OrganiCo" class="logo">
+            <a class="navbar-brand ms-2 text-success" href="#"><strong>OrganiCO</strong></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Paginas
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                            <li><a class="dropdown-item" href="#">Servicios</a></li>
+                            <li><a class="dropdown-item" href="#">Testimonios</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Portafolio
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ver Proyectos</a></li>
+                            <li><a class="dropdown-item" href="#">Galería de Cultivos</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Recetas</a></li>
+                            <li><a class="dropdown-item" href="#">Noticias Orgánicas</a></li>
+                            <li><a class="dropdown-item" href="#">Consejos de Salud</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tienda
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ver Catálogo</a></li>
+                            <li><a class="dropdown-item" href="#">Mi Carrito</a></li>
+                            <li><a class="dropdown-item" href="#">Promociones</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contacto
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Formulario</a></li>
+                            <li><a class="dropdown-item" href="#">Ubicación</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+
+    <!-- Encabezado -->
+    <header id="Inicio">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slideshow1.jpg" class="d-block w-100" alt="comida">
+                    <div class="textoCarousel">
+                        <p class="text-success">Bienvenidos a OrganiCO</p>
+                        <h1>Comida organica<br>y vegetales</h1>
+                        <p>20 años de experiencia en agricultura y productos de calidas</p>
+                        <a href="" class="btn btn-warning btn-lg me-4">Comprar Ahora</a>
+                        <a href="" class="btn btn-success btn-lg">Ver más</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slideshow2.jpg" class="d-block w-100" alt="comida">
+                    <div class="textoCarousel">
+                        <p class="text-success">¡Frescura Certificada!</p>
+                        <h1>Cosechado Hoy,<br>Entregado Mañana</h1>
+                        <p>Garantía de 100% productos orgánicos y de cultivo responsable.</p>
+                        <a href="" class="btn btn-warning btn-lg me-4">Comprar Ahora</a>
+                        <a href="" class="btn btn-success btn-lg">Ver más</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slideshow3.jpg" class="d-block w-100" alt="comida">
+                    <div class="textoCarousel">
+                        <p class="text-success">Alimenta tu Bienestar</p>
+                        <h1>Vive una Vida<br>Más Saludable</h1>
+                        <p>Empieza a disfrutar de una nutrición real y sin químicos.</p>
+                        <a href="" class="btn btn-warning btn-lg me-4">Comprar Ahora</a>
+                        <a href="" class="btn btn-success btn-lg">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev botonslideshow" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next botonslideshow" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Comidas populares -->
+    <section class="comidas py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <p class="small texto-comidas">Comidas y vegetales populares</p>
+                    <h1>Vegetales y comidas de la mas alta calidad</h1>
+                </div>
+                <div class="col-md px-5" id="descripcion">
+                    <p>
+                        Más que simples productos, te ofrecemos una experiencia culinaria superior. Nuestros vegetales y
+                        alimentos son cosechados
+                        en el momento justo de maduración para asegurar la máxima densidad de nutrientes y un sabor
+                        vibrante. Experimenta la
+                        verdadera diferencia que hace la alta calidad en tus comidas diarias y únete a un estilo de vida
+                        más saludable y delicioso
+                    </p>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md text-center border rounded p-4 tarjeta">
+                    <div class="iconos">
+                        <img src="images/frutasIcon.png" alt="icono frutas">
+                    </div>
+                    <h4>Frutas organicas</h4>
+                </div>
+                <div class="col-md text-center border rounded p-4 mx-3 tarjeta">
+                    <div class="iconos">
+                        <img src="images/vegetalIcon.png" alt="icono vegetales">
+                    </div>
+                    <h4>Vegetales</h4>
+                </div>
+                <div class="col-md text-center border rounded p-4 tarjeta">
+                    <div class="iconos">
+                        <img src="images/mariscosIcon.png" alt="icono mariscos">
+                    </div>
+                    <h4>Mariscos</h4>
+                </div>
+                <div class="col-md text-center border rounded p-4 mx-3 tarjeta">
+                    <div class="iconos">
+                        <img src="images/panIcon.png" alt="icono pan">
+                    </div>
+                    <h4>Panes Crujientes</h4>
+                </div>
+                <div class="col-md text-center border rounded p-4 tarjeta">
+                    <div class="iconos">
+                        <img src="images/huevosIcon.png" alt="icono huevos">
+                    </div>
+                    <h4>Huevos</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- descuentos -->
+    <section class="descuentos py-3">
+        <div class="container">
+            <h3 class="text-center pt-3 pb-4">Los mejores descuentos</h3>
+            <div class="row">
+
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="contenedorImagen " id="descuento1">
+                            <img src="images/naranja.png" class="card-img-top" alt="naranja">
+                        </div>
+                        <div class="card-body p-2 border" id="contenido1Desc">
+                            <p class="small mb-1 desc">35% DE DESCUENTO</p>
+                            <h5 class="card-title mb-1">Naranja Fresca</h5>
+                            <p class="card-text mb-2">Los mejores descuentos</p>
+                            <a href="#" class="btn btn-success btn-sm">¡Comprar ahora!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class=" contenedorImagen" id="descuento2">
+                        <img src="images/fresa.png" class="card-img-top" alt="fresa">
+                    </div>
+                    <div class="card-body p-2 border" id="contenido2Desc">
+                        <p class="small mb-1 desc">20% DE DESCUENTO</p>
+                        <h5 class="card-title mb-1">Fresas Frescas</h5>
+                        <p class="card-text mb-2">Los mejores descuentos</p>
+                        <a href="#" class="btn btn-success btn-sm">¡Comprar ahora!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="contenedorImagen" id="descuento3">
+                        <img src="images/tomate.png" class="card-img-top mb-5" alt="tomate">
+                    </div>
+                    <div class="card-body p-2 border" id="contenido3Desc">
+                        <p class="small mb-1 desc">15% DE DESCUENTO</p>
+                        <h5 class="card-title mb-1">Tomate Fresco</h5>
+                        <p class="card-text mb-2">Los mejores descuentos</p>
+                        <a href="#" class="btn btn-success btn-sm">¡Comprar ahora!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- catalogo -->
+    <section class="catalogo py-5">
+        <div class="container p-3">
+            <h3 class="text-center">Nuestros Productos</h3>
+            <div class="row mb-5 py-5">
+                <div class="col-md text-center producto border">
+                    <img src="images/brocoli.jpg" alt="brocoli" class="mb-2">
+                    <h4>Brócoli</h4>
+                    <p class="small text-mute">Brócoli fresco 100% natural</p>
+                    <p class="small text-success">$60 MXN / kg</p>
+                </div>
+                <div class="col-md text-center producto border mx-3">
+                    <img src="images/calabaza.jpg" alt="calabaza" class="mb-2">
+                    <h4>Calabaza</h4>
+                    <p class="small text-mute">Calabaza verde cultivada sin químicos</p>
+                    <p class="small text-success">$45 MXN / kg</p>
+                </div>
+                <div class="col-md text-center producto border me-3">
+                    <img src="images/camaron.jpg" alt="camaron" class="mb-2">
+                    <h4>Camarón</h4>
+                    <p class="small text-mute">Camarón natural de cultivo sostenible</p>
+                    <p class="small text-success">$320 MXN / kg</p>
+                </div>
+                <div class="col-md text-center producto border">
+                    <img src="images/huevos.jpg" alt="huevos" class="mb-2">
+                    <h4>Huevos</h4>
+                    <p class="small text-mute">Huevos de libre pastoreo</p>
+                    <p class="small text-success">$80 MXN / kg</p>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md text-center producto border">
+                    <img src="images/lechuga.jpg" alt="lechuga" class="mb-2">
+                    <h4>Lechuga</h4>
+                    <p class="small text-mute">Lechuga fresca libre de pesticidas</p>
+                    <p class="small text-success">$35 MXN / kg</p>
+                </div>
+                <div class="col-md text-center producto border mx-3">
+                    <img src="images/manzana.png" alt="manzana" class="mb-2">
+                    <h4>Manzana</h4>
+                    <p class="small text-mute">Manzana roja dulce y natural</p>
+                    <p class="small text-success">$70 MXN / kg</p>
+                </div>
+                <div class="col-md text-center producto border me-3">
+                    <img src="images/pan.jpg" alt="pan" class="mb-2">
+                    <h4>Pan</h4>
+                    <p class="small text-mute">Pan artesanal con ingredientes naturales</p>
+                    <p class="small text-success">$55 MXN / kg</p>
+                </div>
+                <div class="col-md text-center producto border">
+                    <img src="images/pescado.jpg" alt="pescado" class="mb-2">
+                    <h4>Pescado</h4>
+                    <p class="small text-mute">Filete de pescado de agua limpia</p>
+                    <p class="small text-success">$290 MXN / kg</p>
+                </div>
+            </div>
+
+            <div class="row mb-5 justify-content-center">
+                <div class="col-md-3 text-center producto border mx-3">
+                    <img src="images/zanahoria.png" alt="zanahoria" class="mb-2">
+                    <h4>Zanahoria</h4>
+                    <p class="small text-mute">Zanahoria fresca y crujiente</p>
+                    <p class="small text-success">$40 MXN / kg</p>
+                </div>
+                <div class="col-md-3 text-center producto border">
+                    <img src="images/uvas verdes.jpg" alt="uvas verdes" class="mb-2">
+                    <h4>Uvas Verdes</h4>
+                    <p class="small text-mute">Uvas dulces libres de químicos</p>
+                    <p class="small text-success">$85 MXN / kg</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- preguntas -->
+    <section class="preguntas">
+        <div class="container p-3 mb-5">
+            <h3 class="text-center">Preguntas frecuentes</h3>
+            <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            ¿Cuál es el origen de sus productos?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Todos nuestros productos frescos son de <Strong>origen local</Strong> y
+                            provienen de pequeñas granjas certificadas. Priorizamos la agricultura <Strong>orgánica y
+                            sostenible</Strong> para garantizar la mejor calidad y frescura.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            ¿Cómo manejan los envíos y cuál es el tiempo de entrega?
+                        </button>
+                        </strong>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Realizamos envíos en vehículos refrigerados para mantener la
+                            cadena de frío. Los pedidos dentro de la ciudad se entregan generalmente en <Strong>24 a 48
+                            horas</Strong>. Puedes revisar la cobertura y los tiempos exactos al ingresar tu código postal en
+                            la sección de carrito.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            ¿Tienen una política de devolución o garantía de frescura?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Absolutamente. Si un producto no cumple con nuestros
+                            estándares de frescura a su llegada, por favor contáctanos dentro de las **24 horas**
+                            siguientes a la recepción. Te ofreceremos un <Strong>**reemplazo sin costo</Strong> o un reembolso
+                            completo. ¡Tu satisfacción es nuestra prioridad!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class=" py-4 piePagina ">
+    <div class="container text-center">
+        <div class="pb-3">
+            <h5 class="fw-bold mb-1">OrganicO</h5>
+            <p class="small text-muted mb-0">Proveedores de alimentos orgánicos y saludables.</p>
+            <p class="small text-muted mb-0">info@organico.com</p>
+        </div>
+        <div class="pt-2">
+            <p class="small text-mute">&copy; 2025 OrganicO. Todos los derechos reservados.</p>
+            <a href="https://facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://x.com/" target="_blank">
+                <i class="fab fa-x"></i>
+            </a>
+            <a href="https://instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
